@@ -1,0 +1,17 @@
+{
+    "nouns": {
+        "book": { "arabic": "كتاب", "kurdish": "کتێب" },
+        "car": { "arabic": "سيارة", "kurdish": "ئۆتۆمبێل" },
+        "child": { "arabic": "طفل", "kurdish": "منداڵ" }
+    },
+    "verbs": {
+        "accept": { "arabic": "قبول", "kurdish": "پەسەندکردن" },
+        "add": { "arabic": "إضافة", "kurdish": "زیادکردن" },
+        "agree": { "arabic": "موافقة", "kurdish": "ڕازی بوون" }
+    },
+    "adjectives": {
+        "angry": { "arabic": "غاضب", "kurdish": "تووڕە" },
+        "beautiful": { "arabic": "جميل", "kurdish": "جوان" },
+        "big": { "arabic": "كبير", "kurdish": "گەورە" }
+    }
+}
