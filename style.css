@@ -1,0 +1,138 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu Bar Styling */
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+    max-width: 150px;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a00e0;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1e90ff;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4a00e0;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4a00e0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e90ff;
+}
+
+/* Story Result Styling */
+.story-result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Ad Placeholder Styling */
+.ad-placeholder {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Tool Description Styling */
+.description-box {
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px dotted #4285F4;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    border-radius: 5px;
+    color: #333;
+    max-width: 800px;
+}
+
+.description-box h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #4285F4;
+}
+
+.description-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
